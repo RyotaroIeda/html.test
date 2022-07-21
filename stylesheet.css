@@ -1,0 +1,386 @@
+body {
+  font-family: 'Lato',sans-serif;
+  margin: 0;
+}
+
+✳︎ {
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.first-view {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  margin: 20px 0 20px 36px;
+}
+
+.header-right {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 36px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.header-right a {
+  text-align: center;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.tag {
+  color: black;
+}
+
+.header-right span {
+  font-size: 10px;
+}
+
+.fa {
+  display: none;
+  height: 21px;
+  width: auto;
+}
+
+.contact {
+  height: 40px;
+  display: block;
+  background-color: #f79214;
+  color: white;
+  border-radius: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.top-wrapper {
+  padding: 20px 50px 28px 50px;
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smart {
+  display: none;
+}
+
+.top-contents {
+  display: block;
+  text-align: left;
+  align-items: center;
+}
+
+.top-contents h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.left,.center {
+  margin-right: 8px;
+}
+
+.btn {
+  display: flex;
+  text-align: left;
+  border-radius: 38px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.btn span {
+ margin: 0 auto;
+}
+
+.orange {
+  background-color: #F79214;
+  color: #FFFFFF;
+  margin-right: 15px;
+  width: 306px;
+  height: 64px;
+  line-height: 64px;
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  width: 174px;
+  height: 62px;
+  border: 1px solid #e0E0E0;
+  line-height: 64px;
+}
+
+.orange,.white {
+  margin-bottom: 0;
+}
+
+.top-wrapper p {
+  color: #a2a2a4;
+  font-size: 12px;
+}
+
+.second-wrapper {
+  height: 380.5px;
+  width: 100%;
+  background-color: #f79214;
+}
+
+.second-contents {
+  display: flex;
+  justify-content: space-between;
+  height: 292.5px;
+  align-items: center;
+  padding: 44px 50px;
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-left {
+  flex-grow: 1;
+  width: 50%;
+  text-align: right;
+}
+
+video {
+  height: 292.5px;
+  width: auto;
+}
+
+.container-right {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 32px;
+  color: #fff;
+  width: 50%;
+}
+
+.container-right h2 {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 3.8px;
+  margin: 0;
+}
+
+.container-right p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.container-right img {
+  margin-right: 5px;
+  width: 18px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.container-right a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+
+
+
+/* ヘッダーハンバーガーメニュー */
+@media all and (max-width: 1080px) {
+  header {
+    height: 20px;
+    background-color: white;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .header-right a {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+
+
+/* タブレット用*/
+@media all and (max-width: 1140px) {
+ .top-wrapper {
+   width: auto;
+   margin: 0;
+   padding-left: 50px;
+   padding-right: 50px;
+  }
+ .second-wrapper {
+   width: auto;
+   height: auto;
+   margin: 0;
+   padding-left: 50px;
+   padding-right: 50px;
+  }
+ .second-contents {
+   width: 100%;
+   height: auto;
+   display: block;
+   margin: 0;
+   padding: 44px 0;
+  }
+ .container-left {
+   width: 100%;
+   text-align: center;
+  }
+  video {
+    width: 75%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .container-right {
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+    
+  }
+  .container-right h2 {
+    width: 100%;
+    margin: 0;
+  }
+  .container-right p {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+  .container-right a {
+    width: 100%;
+  }
+}
+
+
+/*スマートフォン用*/
+@media all and (max-width: 767px) {
+  
+  header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .first-view {
+    background-image: none;
+  }
+  .smart {
+    display: block;
+    width: 100%;
+  }
+  .top-wrapper {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .top-contents {
+    padding: 0 20px;
+    margin-top: -45vw;
+  }
+  .top-contents h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .images {
+    justify-content: center;
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+  .left {
+    margin-right: 8px;
+  }
+  .left,.right {
+    width: 27.5%;
+  }
+  .center {
+    width: 40%;
+    margin-right: 8px;
+  }
+  .btn {
+    margin-bottom: 0;
+  }
+  .white {
+    display: none;
+  }
+  .orange {
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    font-size: 14px;
+  }
+  .top-wrapper p {
+    font-size: 12px;
+    padding: 0 20px 35px 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .second-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    margin: 0;
+  }
+  .second-contents {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .container-left {
+    width: 100%;
+  }
+  .container-right h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .container-right span {
+    font-size: 38px;
+  }
+  .container-right p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .container-right a {
+    font-size: 18px;
+    width: 100%;
+  }
+ 
+}
